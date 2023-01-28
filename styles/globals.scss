@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --accent: 218, 98, 196;
+  --accent-gradient: linear-gradient(45deg, orange, #da62c4 30%, white 60%);
+  --primary-color: #da62c4;
+  --secondary-color: orange;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f6f6f6;
+}
+
+code {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}

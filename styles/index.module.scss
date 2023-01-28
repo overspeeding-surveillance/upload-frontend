@@ -1,0 +1,37 @@
+.main {
+  margin: auto;
+  padding: 1.5rem;
+  max-width: 60ch;
+}
+
+.h1 {
+  width: auto;
+  font-size: 2.65rem;
+  font-weight: 800;
+}
+.textGradient {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--primary-color) 15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400%;
+  background-position: 0%;
+}
+
+.instructions {
+  line-height: 1.6;
+  margin: 1rem 0;
+  border: 1px solid rgba(var(--accent), 25%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.linkCardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+  gap: 1rem;
+  padding: 0;
+}
