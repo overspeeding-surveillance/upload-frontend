@@ -16,7 +16,12 @@ const Upload = () => {
   const _handleBrowse = () => inputRef.current?.click();
 
   const _handleUpload = () => {
-    console.log(file);
+    const formData = new FormData();
+    file && formData.append("file", file);
+    fetch("http://localhost:5000/upload", {
+      method: "POST",
+      body: formData,
+    });
   };
 
   const _handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
