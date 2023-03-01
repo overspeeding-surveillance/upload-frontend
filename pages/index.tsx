@@ -34,7 +34,7 @@ const App = () => {
           body="Upload a video and capture the number plates"
         />
         <Card
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="/records"
           title="Check Records"
           body="View all of the existing violations of the traffic rule."
         />
